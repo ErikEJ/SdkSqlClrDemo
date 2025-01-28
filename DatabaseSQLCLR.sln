@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatabaseSQLCLR", "src\DatabaseSQLCLR\DatabaseSQLCLR.sqlproj", "{8742FE49-539A-40B3-8FA8-B94DF56771E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdkProj", "src\SdkProj\SdkProj.csproj", "{109495F9-8E8D-4026-B2C0-390CF6DC9542}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{765D4F8D-B0DC-414E-9A09-B10DA47DAD84}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8742FE49-539A-40B3-8FA8-B94DF56771E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8742FE49-539A-40B3-8FA8-B94DF56771E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8742FE49-539A-40B3-8FA8-B94DF56771E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8742FE49-539A-40B3-8FA8-B94DF56771E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8742FE49-539A-40B3-8FA8-B94DF56771E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8742FE49-539A-40B3-8FA8-B94DF56771E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{109495F9-8E8D-4026-B2C0-390CF6DC9542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109495F9-8E8D-4026-B2C0-390CF6DC9542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109495F9-8E8D-4026-B2C0-390CF6DC9542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109495F9-8E8D-4026-B2C0-390CF6DC9542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
